@@ -1,0 +1,24 @@
+D:\5°semestre\compiladores\tarea 3\INTERPRETE\INTERPRETE\bin\Debug\INTERPRETE.exe.config
+D:\5°semestre\compiladores\tarea 3\INTERPRETE\INTERPRETE\bin\Debug\INTERPRETE.exe
+D:\5°semestre\compiladores\tarea 3\INTERPRETE\INTERPRETE\bin\Debug\INTERPRETE.pdb
+D:\5°semestre\compiladores\tarea 3\INTERPRETE\INTERPRETE\bin\Debug\CalithaLib.dll
+D:\5°semestre\compiladores\tarea 3\INTERPRETE\INTERPRETE\bin\Debug\GoldParserEngine.dll
+D:\5°semestre\compiladores\tarea 3\INTERPRETE\INTERPRETE\obj\Debug\INTERPRETE.csproj.AssemblyReference.cache
+D:\5°semestre\compiladores\tarea 3\INTERPRETE\INTERPRETE\obj\Debug\INTERPRETE.Form1.resources
+D:\5°semestre\compiladores\tarea 3\INTERPRETE\INTERPRETE\obj\Debug\INTERPRETE.Properties.Resources.resources
+D:\5°semestre\compiladores\tarea 3\INTERPRETE\INTERPRETE\obj\Debug\INTERPRETE.csproj.GenerateResource.cache
+D:\5°semestre\compiladores\tarea 3\INTERPRETE\INTERPRETE\obj\Debug\INTERPRETE.csproj.CoreCompileInputs.cache
+D:\5°semestre\compiladores\tarea 3\INTERPRETE\INTERPRETE\obj\Debug\INTERPRETE.exe
+D:\5°semestre\compiladores\tarea 3\INTERPRETE\INTERPRETE\obj\Debug\INTERPRETE.pdb
+D:\5°semestre\compiladores\tarea3\INTERPRETE\INTERPRETE\bin\Debug\INTERPRETE.exe.config
+D:\5°semestre\compiladores\tarea3\INTERPRETE\INTERPRETE\bin\Debug\INTERPRETE.exe
+D:\5°semestre\compiladores\tarea3\INTERPRETE\INTERPRETE\bin\Debug\INTERPRETE.pdb
+D:\5°semestre\compiladores\tarea3\INTERPRETE\INTERPRETE\bin\Debug\CalithaLib.dll
+D:\5°semestre\compiladores\tarea3\INTERPRETE\INTERPRETE\bin\Debug\GoldParserEngine.dll
+D:\5°semestre\compiladores\tarea3\INTERPRETE\INTERPRETE\obj\Debug\INTERPRETE.csproj.AssemblyReference.cache
+D:\5°semestre\compiladores\tarea3\INTERPRETE\INTERPRETE\obj\Debug\INTERPRETE.Form1.resources
+D:\5°semestre\compiladores\tarea3\INTERPRETE\INTERPRETE\obj\Debug\INTERPRETE.Properties.Resources.resources
+D:\5°semestre\compiladores\tarea3\INTERPRETE\INTERPRETE\obj\Debug\INTERPRETE.csproj.GenerateResource.cache
+D:\5°semestre\compiladores\tarea3\INTERPRETE\INTERPRETE\obj\Debug\INTERPRETE.csproj.CoreCompileInputs.cache
+D:\5°semestre\compiladores\tarea3\INTERPRETE\INTERPRETE\obj\Debug\INTERPRETE.exe
+D:\5°semestre\compiladores\tarea3\INTERPRETE\INTERPRETE\obj\Debug\INTERPRETE.pdb

@@ -1,0 +1,7 @@
+software "jueves"
+entero dia, mes
+inicio
+dia = 4
+mes =11
+imprimir ("dia del mes " +dia+ "  mes " + mes)
+fin

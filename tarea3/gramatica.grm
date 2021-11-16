@@ -1,0 +1,55 @@
+! Welcome to GOLD Parser Builder 5.2
+
+"Name" = 'interprete1'
+"Author" = 'luis armando garcia perez'
+"Version"= '1.0'
+"About" = 'Ejemplo de una gramatica de declaracionesde tipos y las sentencias asgnas'
+  
+!Expresiones Regulares
+Comment Line ='//'
+{StringChar} = {Printable} - ["'']
+Identificador ={Letter}{Alphanumeric}*
+ _entero ={Number}+
+ _real = {Number}+'.'{Number}+
+ _caracter=''{StringChar}''
+ _cadena = '"'{StringChar}*'"'
+ 
+!Simbolos Terminales
+entero ='entero'
+real = 'real'
+caracter ='caracter'
+cadena ='cadena'
+software = 'software'
+inicio='inicio' 
+fin='fin'
+imprimir='imprimir'
+abrepar ='('
+cierrapar =')'
+coma = ','
+igual = '='
+      
+!Simbolo inicial
+"Start Symbol" = <Programa>
+
+!Producciones 
+<Programa> ::= software  _cadena <Declaraciones> inicio <Sentencias> fin
+<Declaraciones> ::= <Declaracion> | <Declaraciones><Declaracion>
+<Declaracion> ::= <Tipos> <Identificadores>
+<Identificadores> ::= identificador | <Identificadores> coma identificador
+<Tipos> ::= entero | real | cadena | caracter
+ <Sentencias> ::= <Sentencia> | <Sentencias> <Sentencia>
+ <Sentencia> ::= <Asignar> | <Imprimir>
+ <Asignar> ::= identificador igual <Val Literales> | identificador igual <Expresion>
+ <Imprimir> ::= imprimir abrepar cierrapar | imprimir abrepar <Valores Literales> cierrapar
+              | imprimir abrepar <Val Numericos> cierra | imprimir abrepar identificador cierrapar
+              | imprimir abrepar <Expresion> cierrapar
+<Valores Literales> ::= <Val Literales> | <Valores literales> '+' <Val Literales>
+              | <Valores Literales> '+' identificador
+<Val Literales> ::= _caracter | _cadena
+<Val Numericos> ::= _entero | _real
+<Expresion> ::= <Expresion> '+' <Termino> | <Expresion> '-' <Termino> | <Termino>
+<Termino> ::= <Termino> '*' <Factor> | <Termino> '/' <Factor>  | <Factor>
+<Factor> ::= abrepar <Expresion> cierrapar | <Val Numericos> | identificador
+                   
+           
+
